@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.periodic-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.periodic-table td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.element {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.alkali-metal {
+    background-color: #f0f8ff;
+}
+
+.alkaline-earth-metal {
+    background-color: #e6e6fa;
+}
+
+.lanthanide {
+    background-color: #ffe4e1;
+}
+
+.actinide {
+    background-color: #ffe4b5;
+}
+
+.transition-metal {
+    background-color: #d3d3d3;
+}
+
+.post-transition-metal {
+    background-color: #b0e0e6;
+}
+
+.metalloid {
+    background-color: #dda0dd;
+}
+
+.non-metal {
+    background-color: #90ee90;
+}
+
+.halogen {
+    background-color: #ffb6c1;
+}
+
+.noble-gas {
+    background-color: #add8e6;
+}
+
+td[colspan] {
+    background-color: transparent;
+    border: none;
+}
